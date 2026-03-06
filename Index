@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Yanshuf BAC Calculator</title>
+    <style>
+        :root {
+            --primary: #f0a500;
+            --bg-dark: #121212;
+            --bg-card: #1e1c17;
+            --cream: #F5F5DC;
+            --cream-muted: #F5F5DCcc;
+            --border: #f0a50044;
+            --muted: #3a3527;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--cream);
+            line-height: 1.7;
+            padding: 0;
+        }
+
+        .header {
+            background-color: var(--bg-card);
+            border-bottom: 2px solid var(--border);
+            padding: 32px 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            color: var(--primary);
+            font-size: 28px;
+            font-weight: 800;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        .header .subtitle {
+            color: var(--cream-muted);
+            font-size: 14px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 32px 20px 80px;
+        }
+
+        h2 {
+            color: var(--primary);
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--border);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h3 {
+            color: var(--cream);
+            font-size: 16px;
+            font-weight: 700;
+            margin-top: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: var(--cream-muted);
+            margin-bottom: 16px;
+            font-size: 15px;
+        }
+
+        ul, ol {
+            color: var(--cream-muted);
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .important-box {
+            background-color: var(--bg-card);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .important-box p {
+            margin-bottom: 8px;
+        }
+
+        .important-box p:last-child {
+            margin-bottom: 0;
+        }
+
+        .warning-box {
+            background-color: rgba(233, 116, 81, 0.1);
+            border: 2px solid rgba(233, 116, 81, 0.4);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin: 24px 0;
+        }
+
+        .warning-box strong {
+            color: #E97451;
+        }
+
+        strong {
+            color: var(--cream);
+            font-weight: 700;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid var(--border);
+            margin: 48px 0;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 32px 20px;
+            border-top: 2px solid var(--border);
+            color: var(--cream-muted);
+            font-size: 13px;
+        }
+
+        .footer a {
+            color: var(--primary);
+        }
+
+        .lang-switch {
+            text-align: center;
+            margin: 32px 0;
+        }
+
+        .lang-switch a {
+            display: inline-block;
+            padding: 10px 24px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.2s;
+        }
+
+        .lang-switch a:hover {
+            background-color: var(--bg-card);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 22px; }
+            h2 { font-size: 17px; }
+            .container { padding: 20px 16px 60px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Yanshuf — BAC Calculator &nbsp;|&nbsp; Last Updated: March 6, 2026</p>
+    </div>
+
+    <div class="container">
+
+        <div class="lang-switch">
+            <a href="#hebrew">🇮🇱 עברית למטה</a>
+        </div>
+
+        <div class="warning-box">
+            <p><strong>Important Disclaimer:</strong> Yanshuf is a Blood Alcohol Content (BAC) estimation tool intended solely for informational and educational purposes. It is NOT a medical device, NOT a substitute for professional judgment, and must NOT be used to determine whether it is safe to drive, operate machinery, or engage in any activity. We do not encourage, promote, or condone the consumption of alcohol or driving under the influence of alcohol under any circumstances.</p>
+        </div>
+
+        <h2>Introduction</h2>
+        <p>Yanshuf ("we", "our", or "us") operates the Yanshuf BAC Calculator mobile application (the "App"). We are committed to protecting your privacy. This Privacy Policy explains what information is collected, how it is used, and your rights regarding that information when you use our App.</p>
+
+        <h2>Information We Collect</h2>
+
+        <h3>Information We Do NOT Collect</h3>
+        <p>Yanshuf is designed with privacy in mind. We do <strong>not</strong> collect, store, or transmit any of the following:</p>
+        <ul>
+            <li>Personal identification information (name, email, phone number)</li>
+            <li>Location data</li>
+            <li>Health or medical data</li>
+            <li>Drinking habits or history</li>
+            <li>Account credentials or passwords</li>
+        </ul>
+        <p>The App does not have a backend server or database. All calculation data (weight, sex, drinks entered) is processed entirely on your device and is <strong>never transmitted</strong> to us or any third party.</p>
+
+        <h3>Information Collected Automatically</h3>
+        <p>The App may automatically collect limited, non-personal information through third-party services:</p>
+        <ul>
+            <li>Device type and operating system version</li>
+            <li>App crash reports and performance diagnostics (via Expo)</li>
+            <li>Anonymous usage statistics</li>
+        </ul>
+
+        <h3>Information Collected by Advertising Partners</h3>
+        <p>We use Google AdMob to display banner advertisements. Google AdMob may collect and process:</p>
+        <ul>
+            <li>Device advertising identifier (IDFA/GAID)</li>
+            <li>IP address</li>
+            <li>Device type and OS version</li>
+            <li>General location derived from IP address</li>
+            <li>App interaction data for ad personalization</li>
+        </ul>
+
+        <h2>How We Use Information</h2>
+        <p>The limited information collected is used exclusively to:</p>
+        <ul>
+            <li>Display advertisements through Google AdMob</li>
+            <li>Monitor app stability and fix crashes</li>
+            <li>Improve app performance and user experience</li>
+        </ul>
+        <p>We do <strong>not</strong> use any collected information to identify individual users, track drinking behavior, or build personal profiles.</p>
+
+        <h2>Advertising</h2>
+        <p>The App displays banner advertisements powered by Google AdMob. These ads help support the free availability of the App.</p>
+
+        <h3>Ad Personalization</h3>
+        <p>Ads may be personalized based on data collected by Google. You can opt out of personalized advertising:</p>
+        <ul>
+            <li><strong>Android:</strong> Settings → Google → Ads → Opt out of Ads Personalization</li>
+            <li><strong>iOS:</strong> Settings → Privacy & Security → Tracking → Disable tracking</li>
+        </ul>
+        <p>For more information, see the <a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a> and <a href="https://adssettings.google.com/" target="_blank">Google Ads Settings</a>.</p>
+
+        <h2>Data Sharing</h2>
+        <div class="important-box">
+            <p><strong>We DO NOT:</strong></p>
+            <ul>
+                <li>Sell any user data to third parties</li>
+                <li>Share personal data with advertisers</li>
+                <li>Collect or store any personal information</li>
+            </ul>
+        </div>
+        <p><strong>We MAY share non-personal data:</strong></p>
+        <ul>
+            <li>With Google AdMob for advertising purposes (device-level data only)</li>
+            <li>When required by law or legal process</li>
+            <li>To protect our rights, safety, or property</li>
+        </ul>
+
+        <h2>Data Storage</h2>
+        <p>All user inputs (weight, sex, drink selections, time) are stored <strong>only in your device's local memory (RAM)</strong> during the current session. This data is <strong>not saved to disk, not cached, and not transmitted</strong> anywhere. When you close the App, all entered data is permanently discarded.</p>
+
+        <h2>Third-Party Services</h2>
+        <p>The App uses the following third-party services, each with their own privacy policies:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> Advertising — <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a></li>
+            <li><strong>Expo:</strong> App development framework — <a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a></li>
+        </ul>
+
+        <h2>Children's Privacy</h2>
+        <p>Yanshuf is <strong>not intended for use by anyone under the legal drinking age</strong> in their jurisdiction (18 in Israel, 21 in the USA, 18 in the UK). We do not knowingly collect any information from minors. If we discover that a minor has accessed the App, we will take appropriate action as required by applicable law.</p>
+        <p>The App does not contain content that promotes or encourages alcohol consumption by minors.</p>
+
+        <h2>Israeli Privacy Law Compliance</h2>
+        <p>For users in Israel, we comply with the Protection of Privacy Law, 5741-1981 (חוק הגנת הפרטיות, התשמ"א-1981). Since we do not collect personal information, the scope of applicable obligations is limited. You retain all rights under Israeli law, including:</p>
+        <ul>
+            <li>Right to know what information is collected about you</li>
+            <li>Right to request correction or deletion of information</li>
+            <li>Right to object to processing of your data</li>
+        </ul>
+
+        <h2>GDPR Compliance (EU Users)</h2>
+        <p>If you are located in the European Union, you have rights under the General Data Protection Regulation (GDPR). Since we do not collect personal data directly, these rights primarily apply to data collected by our advertising partner (Google AdMob). You may:</p>
+        <ul>
+            <li>Request access to data collected by Google about you</li>
+            <li>Opt out of personalized advertising</li>
+            <li>Request deletion of advertising data through Google's tools</li>
+            <li>Withdraw consent for data processing at any time</li>
+        </ul>
+        <p>To exercise these rights with Google, visit <a href="https://myaccount.google.com/privacy" target="_blank">Google Privacy Controls</a>.</p>
+
+        <h2>Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Changes will be reflected by updating the "Last Updated" date at the top of this page. Continued use of the App after changes constitutes acceptance of the updated policy.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy, please contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:Shiftlyapp1@gmail.com">Shiftlyapp1@gmail.com</a></p>
+
+        <h2>Consent</h2>
+        <p>By downloading, installing, and using Yanshuf, you consent to this Privacy Policy and agree to its terms.</p>
+
+        <hr id="hebrew">
+
+        <h1 style="color: var(--primary); text-align: center; font-size: 28px; margin-bottom: 8px; letter-spacing: 2px;">מדיניות פרטיות</h1>
+        <p style="text-align: center; margin-bottom: 32px;">Yanshuf — מחשבון BAC &nbsp;|&nbsp; עודכן לאחרונה: 6 במרץ 2026</p>
+
+        <div class="warning-box" dir="rtl">
+            <p><strong>הצהרה חשובה:</strong> Yanshuf הוא כלי להערכת רמת אלכוהול בדם (BAC) המיועד למטרות מידע וחינוך בלבד. הוא אינו מכשיר רפואי, אינו תחליף לשיקול דעת מקצועי, ואסור להשתמש בו כדי לקבוע אם בטוח לנהוג, להפעיל מכונות, או לעסוק בכל פעילות אחרת. אנו לא מעודדים, מקדמים או תומכים בצריכת אלכוהול או בנהיגה בשכרות בשום נסיבות.</p>
+        </div>
+
+        <div dir="rtl">
+            <h2>הקדמה</h2>
+            <p>Yanshuf ("אנו", "שלנו", או "אותנו") מפעילים את אפליקציית Yanshuf BAC Calculator ("האפליקציה"). אנו מחויבים להגן על הפרטיות שלך. מדיניות פרטיות זו מסבירה אילו מידע נאסף, כיצד הוא משמש, ומהן זכויותיך בנוגע למידע זה בעת השימוש באפליקציה.</p>
+
+            <h2>מידע שאנו אוספים</h2>
+
+            <h3>מידע שאנו לא אוספים</h3>
+            <p>Yanshuf תוכננה תוך מחשבה על הפרטיות שלך. אנו <strong>לא</strong> אוספים, מאחסנים או מעבירים את המידע הבא:</p>
+            <ul>
+                <li>מידע מזהה אישי (שם, אימייל, מספר טלפון)</li>
+                <li>נתוני מיקום</li>
+                <li>נתוני בריאות או נתונים רפואיים</li>
+                <li>הרגלי שתייה או היסטוריה</li>
+                <li>פרטי כניסה או סיסמאות</li>
+            </ul>
+            <p>לאפליקציה אין שרת או מסד נתונים. כל נתוני החישוב (משקל, מין, משקאות) מעובדים אך ורק במכשיר שלך <strong>ולעולם לא נשלחים</strong> אלינו או לכל צד שלישי.</p>
+
+            <h3>מידע שנאסף אוטומטית</h3>
+            <p>האפליקציה עשויה לאסוף אוטומטית מידע מוגבל ולא אישי באמצעות שירותי צד שלישי:</p>
+            <ul>
+                <li>סוג מכשיר וגרסת מערכת הפעלה</li>
+                <li>דוחות קריסה ואבחון ביצועים (באמצעות Expo)</li>
+                <li>סטטיסטיקות שימוש אנונימיות</li>
+            </ul>
+
+            <h3>מידע שנאסף על ידי שותפי פרסום</h3>
+            <p>אנו משתמשים ב-Google AdMob להצגת מודעות באנר. Google AdMob עשוי לאסוף ולעבד:</p>
+            <ul>
+                <li>מזהה פרסום של המכשיר (IDFA/GAID)</li>
+                <li>כתובת IP</li>
+                <li>סוג מכשיר וגרסת מערכת הפעלה</li>
+                <li>מיקום כללי הנגזר מכתובת IP</li>
+                <li>נתוני אינטראקציה עם האפליקציה להתאמת מודעות</li>
+            </ul>
+
+            <h2>כיצד אנו משתמשים במידע</h2>
+            <p>המידע המוגבל שנאסף משמש אך ורק ל:</p>
+            <ul>
+                <li>הצגת מודעות באמצעות Google AdMob</li>
+                <li>ניטור יציבות האפליקציה ותיקון קריסות</li>
+                <li>שיפור ביצועי האפליקציה וחוויית המשתמש</li>
+            </ul>
+            <p>אנו <strong>לא</strong> משתמשים במידע שנאסף כדי לזהות משתמשים, לעקוב אחר הרגלי שתייה, או לבנות פרופילים אישיים.</p>
+
+            <h2>פרסום</h2>
+            <p>האפליקציה מציגה מודעות באנר המופעלות על ידי Google AdMob. מודעות אלה עוזרות לתמוך בזמינות החינמית של האפליקציה.</p>
+
+            <h3>התאמה אישית של פרסומות</h3>
+            <p>ניתן לבטל התאמה אישית של פרסומות:</p>
+            <ul>
+                <li><strong>אנדרואיד:</strong> הגדרות → Google → מודעות → ביטול התאמה אישית של מודעות</li>
+                <li><strong>iOS:</strong> הגדרות → פרטיות ואבטחה → מעקב → השבתת מעקב</li>
+            </ul>
+
+            <h2>שיתוף נתונים</h2>
+            <p><strong>אנו לא:</strong></p>
+            <ul>
+                <li>מוכרים נתוני משתמשים לצדדים שלישיים</li>
+                <li>משתפים מידע אישי עם מפרסמים</li>
+                <li>אוספים או מאחסנים מידע אישי כלשהו</li>
+            </ul>
+
+            <h2>אחסון נתונים</h2>
+            <p>כל הקלטות המשתמש (משקל, מין, בחירת משקאות, זמן) מאוחסנות <strong>רק בזיכרון המקומי של המכשיר (RAM)</strong> במהלך השימוש הנוכחי. נתונים אלה <strong>לא נשמרים לדיסק, לא נשמרים במטמון, ולא נשלחים</strong> לשום מקום. כאשר אתה סוגר את האפליקציה, כל הנתונים שהוזנו נמחקים לצמיתות.</p>
+
+            <h2>פרטיות ילדים</h2>
+            <p>Yanshuf <strong>אינה מיועדת לשימוש על ידי מי שמתחת לגיל השתייה החוקי</strong> בתחום השיפוט שלו (18 בישראל, 21 בארה"ב, 18 בבריטניה). אנו לא אוספים ביודעין מידע כלשהו מקטינים.</p>
+            <p>האפליקציה אינה מכילה תוכן המקדם או מעודד צריכת אלכוהול על ידי קטינים.</p>
+
+            <h2>עמידה בחוקי פרטיות ישראליים</h2>
+            <p>עבור משתמשים בישראל, אנו עומדים בחוק הגנת הפרטיות, התשמ"א-1981. מכיוון שאיננו אוספים מידע אישי, היקף החובות החלות מוגבל. יש לך את כל הזכויות על פי החוק הישראלי, כולל:</p>
+            <ul>
+                <li>זכות לדעת אילו מידע נאסף עליך</li>
+                <li>זכות לבקש תיקון או מחיקה של מידע</li>
+                <li>זכות להתנגד לעיבוד הנתונים שלך</li>
+            </ul>
+
+            <h2>שינויים במדיניות פרטיות זו</h2>
+            <p>אנו עשויים לעדכן מדיניות פרטיות זו מעת לעת. שינויים ישתקפו בעדכון תאריך "עודכן לאחרונה" בראש עמוד זה. המשך השימוש באפליקציה לאחר שינויים מהווה הסכמה למדיניות המעודכנת.</p>
+
+            <h2>יצירת קשר</h2>
+            <p>אם יש לך שאלות לגבי מדיניות פרטיות זו, אנא צור איתנו קשר:</p>
+            <p><strong>אימייל:</strong> <a href="mailto:Shiftlyapp1@gmail.com">Shiftlyapp1@gmail.com</a></p>
+
+            <h2>הסכמה</h2>
+            <p>על ידי הורדה, התקנה ושימוש ב-Yanshuf, אתה מסכים למדיניות פרטיות זו ומסכים לתנאיה.</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Yanshuf. All rights reserved. &nbsp;|&nbsp; <a href="terms.html">Terms & Conditions</a></p>
+    </div>
+</body>
+</html>
